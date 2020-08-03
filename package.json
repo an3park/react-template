@@ -5,7 +5,6 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "install@latest": "node -e \"try{require('./updateall')}catch(_){}\"",
     "dev": "webpack-dev-server --env.dev",
     "build": "webpack"
   },
